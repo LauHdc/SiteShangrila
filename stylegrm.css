@@ -1,0 +1,137 @@
+body {font-family: 'Jost', sans-serif;}
+
+
+/* Sections HEADER */
+
+#entete1 {background-color: #a0855b; color: beige} 
+#entete1 p {padding-left: 5px; margin-top: 15px; margin-right: 15px}
+#entete1 i {padding: 2px}
+#entete1 a {color: beige}
+#entete1 a:link {text-decoration: none}
+.btn.dropdown-toggle {color: beige; padding-top: 1px; padding-bottom: 1px; margin-left: -13px;}
+.dropdown {margin-left: 2px; padding-top: 13px; padding-bottom: 10px}
+
+#entete2 a {color: black}
+#entete2 .nav-link.active {color: #a0855b; font-weight: bold}
+
+.fas.fa-search.icone-loupe {width: 30px; height: 30px; background-color: black; border: 1px solid #a0855b; display: flex; justify-content: center; align-items: center}
+
+.fas.fa-bars.icone-liste {width: 30px; height: 30px; background-color: #a0855b; border: 1px solid #a0855b; display: flex; justify-content: center; align-items: center}
+
+.icone-loupe {color: beige}
+.icone-liste {color: beige}
+
+
+/* Section PRESENTATION */
+
+#presentation {flex-direction: column; background: url(img/image-1.jpg) no-repeat 0 0 #000; height: 700px; background-size: cover; position: relative;}
+
+#presentation h1 {color: #a0855b; font-size: 3.5em; font-weight: bold}
+
+#presentation h2 {color: beige; font-size: 3.5em; font-weight: bold}
+
+#presentation p {color: beige; margin-top: 1.5em}
+
+#presentation .details {padding: 8px 25px 8px 25px; color: beige; background-color: #a0855b; margin-top: 1.5em}
+
+#presentation a:link {text-decoration: none}
+
+#menu-anglais {background-color: #f2f2f2; opacity: 0.7; position: absolute; margin-top: 470px; padding-bottom: 0.2em; padding-top: 0.2em}
+#menu-anglais img {margin-right: 90px}
+#menu-anglais a {color: black}
+#menu-anglais .nav-link.active {border: 1px solid #a0855b; background-color: #a0855b; color: beige} 
+
+
+/* Section COMMANDES */
+
+#commandes {margin-bottom: 4.5em}
+.text-center {margin-top: 3.5em; margin-bottom: 3em}
+#commandes h4 {color: #a0855b}
+#commandes h5 {font-size: 1.3em}
+#commandes p {font-size: 1em; color: grey}
+#commandes a {border: 1px solid #a0855b; color: #a0855b; padding: 5px 10px; text-decoration: none}
+
+
+/* Section PLATS */
+
+#plats h4 {color: #a0855b}
+.img {position: relative; opacity: 0.5;}
+.liens {position: absolute; margin-top: -60px; margin-left: 185px;}
+i {margin-left: 20px; position: absolute; margin-top: -264px}
+#plats a:hover {text-decoration: none}
+#plats a {color: black; font-weight: bold}
+#plats {margin-bottom: 4.5em}
+
+
+/* Section EQUIPE */
+
+#equipe {margin-bottom: 4.5em}
+#equipe h4 {color: #a0855b}
+#equipe img {border-radius: 50%; width: 200px; margin-top: 5px; margin: 20px}
+.flex {display: flex; flex-direction: column}
+#equipe .text-center {margin-bottom: -1.2em}
+#equipe h6 {color: #a0855b}
+
+
+/* Section PARALLAX */
+
+#parallax {margin-bottom: 4.5em}
+.col-md-8.offset-md-2.text-center.overlay {text-transform: uppercase; font-size: 3.5em; margin-top: 1em; color: beige}
+
+#parallax {background: url(img/fond2.jpg) no-repeat 0 0 fixed; height: 250px; background-size: cover; position: relative;}
+
+#parallax hr {color: beige; border: 1px solid; width: 565px}
+
+#parallax p {color: beige}
+
+
+/* Section RESERVATION */
+
+#reservation {margin-bottom: 4.5em}
+#reservation h4 {color: #a0855b; margin-bottom: -1.5em}
+.icone-resa {margin: 10px}
+.reserver {padding: 8px 25px 8px 25px; color: beige; background-color: #a0855b; margin-top: 1.5em; margin-top: 0.5em}
+#reservation a:hover {color: beige}
+#reservation a:link {text-decoration: none}
+
+
+/* Section TEMOIGNAGE */
+
+#temoignage {padding-bottom: 4em; background-color: #a0855B}
+.icone-chef {margin-top: 50px}
+#temoignage img {border-radius: 50%}
+#temoignage i {border: 1px solid beige; padding: 10px 10px; color: beige}
+#temoignage p {color: beige}
+.nom {font-size: 0.7em}
+
+
+/* Section BLOG */
+
+#blog {margin-bottom: 4.5em}
+.text-center p {color: #a0855b}
+#blog hr {color: beige; border: 1px solid; width: 270px; margin: 0; border-top: dashed 1px black;}
+.likes {margin-left: 139px}
+#blog img {margin-bottom: 20px; width: 270px}
+article p {font-size: 0.9em}
+article h5 {font-weight: bold}
+article a {color: black}
+article a:hover {color: black; text-decoration: none}
+
+
+/* Section CONTACT */
+
+#contact {background-color: black; padding-top: 3em; padding-bottom: 1em; color: beige}
+.col-md-8.offset-md-2.text-center {font-size: 0.9em; margin-top: 2em; margin-bottom: 2em}
+#contact h5 {color: beige;}
+#contact hr {color: #a0855b; border: 1.5px solid; width: 35px; margin: 25px; margin-left: 95px}
+#contact li {list-style-type: none; margin: 10px}
+#contact span {color: #a0855b}
+#contact .fab {margin: 3px; margin-left: -20px;}
+#contact .fas {margin: 3px; margin-left: -20px;}
+#contact a {color: beige}
+#contact a:hover {text-decoration: none}
+
+/* Section FOOTER */
+
+footer {background-color: #a0855b; color: beige}
+footer p {padding: 15px}

@@ -1,0 +1,73 @@
+@media screen and (max-width: 375px) {
+    
+    .align-items-start {margin-left: 5px}
+    #entete2 img {margin-left: 15px}
+    #presentation h1 {margin-top: -0.5em}
+    #presentation h2 {margin-left: 51px}
+    #menu-anglais {margin-top: 440px}
+    #presentation p {margin-left: 25px}
+    #presentation .details {padding: 8px 25px 8px 25px; margin-bottom: 9.5em}
+    #commandes .justify-content-center {margin-left: 22px}
+    #commandes .col {margin-bottom: 30px}
+    #plats {padding-top: -1em}
+    #equipe .chef3 {margin-left: 45px}
+    #equipe h5 {margin-left: 31px}
+    #equipe h6 {margin-left: 26px}
+    #parallax .overlay {margin-top: 8px; font-size: 3em; margin-left: -5px;}
+    #parallax hr {width: 350px; margin-bottom: 30px; margin-top: 20px}
+    #reservation i {font-size: 40px;
+    margin-left: -15px;}
+    #reservation .text-center {margin-bottom: 0.5em}
+    #reservation input {margin-left: 10px}
+    #reservation .reserver {margin-top: 50px; margin-bottom: -10px;}
+    #temoignage .icone-chef {margin-left: 1px; margin-top: -10px;}
+    #temoignage img {width: 170px}
+    #temoignage p {margin-left: 20px; margin-top: 25px}
+    #blog .col-md-4 {margin-left: 21px; margin-bottom: 50px}
+    #contact {margin-top: -3em}
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    
+    #presentation h1 {margin-top: -145px}
+    #presentation p {margin-left: 75px; margin-right: 60px;}
+    #menu-anglais {margin-top: 400px}
+    #plats h5 {margin-left: -6px}
+    #plats h6 {margin-left: 23px}
+    .team {margin-left: 102px}
+    #equipe h5 {margin-left: 40px}
+    #equipe h6 {margin-left: 38px}
+    #parallax .overlay {margin-top: 8px; font-size: 3.5em; margin-left: 83px}
+    #parallax p {margin-left: 85px}
+    #reservation input {margin-left: 10px}
+    .fa-clock {margin-left: 30px}
+    .fa-users {margin-left: -20px}
+    .form-control {margin-left: -15px}
+    #blog hr {width: 130px}
+    .likes {margin-left: 20px}
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+    
+    #presentation h1 {margin-top: -115px}
+    #menu-anglais {margin-top: 400px}
+    #commandes .col {margin-left: -5px; margin-bottom: 55px}
+    #plats h5 {margin-left: -6px}
+    #plats h6 {margin-left: 23px}
+    #parallax .overlay {margin-top: 38px; font-size: 4.5em}
+    #parallax hr {width: 710px}
+    .fa-clock {margin-left: 10px}
+    .fa-users {margin-left: -20px}
+    .form-control {margin-left: -15px}
+    #blog hr {width: 250px}
+    .likes {margin-left: 134px}
+    
+}
+
+
+
+
+    
+    
